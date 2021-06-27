@@ -1,0 +1,43 @@
+{
+  "name": "undo-redo-helper",
+  "version": "1.1.4",
+  "description": "Undo Redo That Helper.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "start": "npm run build",
+    "test_l": "node tests",
+    "test": "node test/tests"
+  },
+  "keywords": [
+    "Helper",
+    "Node",
+    "Node.JS",
+    "NPM",
+    "undo-redo",
+    "undo",
+    "redo"
+  ],
+  "author": "Yotam Hassin <YotamHassinWork@gmail.com> (https://www.linkedin.com/in/yotamhassin/)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YotamHassin/undo-redo-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YotamHassin/undo-redo-helper/issues"
+  },
+  "homepage": "https://github.com/YotamHassin/undo-redo-helper#readme",
+  "dependencies": {
+    "myy-common": "0.1.1",
+    "rxjs": "6.6.3"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/YotamHassin"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13"
+  }
+}

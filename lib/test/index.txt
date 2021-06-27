@@ -1,0 +1,15 @@
+﻿
+// index
+
+1. ValueTimeLineWrapper let you control todo-undo.
+get-set based &&|| trigger-subscribe based.
+complete track over single data.
+
+
+2. SourcesHandler let you manage many name based ValueTimeLineWrapper.
+here we add complete track over general data.
+tracked && no tracked trigger.
+subscribe general && trigger by name.
+
+
+3. todo
